@@ -10,9 +10,9 @@
     "src"
   ],
   "keywords": [
-    "bobibs",
+    "bobi",
     "icon",
-    "bobibs-icon-svgr"
+    "bobi-icon-svgr"
   ],
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
