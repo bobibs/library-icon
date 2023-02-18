@@ -1,6 +1,7 @@
 {
-  "name": "rr-icon-svgr",
-  "description": "RR Icon Svgr",
+  "name": "bobi-icon-svgr",
+  "version": "1.0.0",
+  "description": "Bobi Icon Svgr",
   "main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "files": [
