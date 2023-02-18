@@ -1,7 +1,7 @@
 {
   "name": "bobi-icon-svgr",
   "version": "1.0.0",
-  "description": "Bobi Icon Svgr",
+  "description": "Bobibs Icon Svgr",
   "main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -9,12 +9,17 @@
     "package.json",
     "src"
   ],
+  "keywords": [
+    "bobibs",
+    "icon",
+    "bobibs-icon-svgr"
+  ],
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
     "svgr": "svgr --icon 16px --ref --title-prop --replace-attr-values '#3C4048=currentColor' -d src assets"
   },
-  "author": "",
+  "author": "Bobi Basari",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.18.6",
